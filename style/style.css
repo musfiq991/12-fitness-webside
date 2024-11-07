@@ -11,6 +11,8 @@
     font-size: 6rem;
   }
 body{background-color: black;}
+main{max-width: 1060px;
+margin: 0 auto;}
 
 
 /* btn  */
@@ -45,7 +47,14 @@ body{background-color: black;}
     font-weight: 400;
 }
 
-
+.title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.short-title{color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;}
 /*................ nav...............  */
 header{max-width: 1060px;
     margin: 0 auto;}
@@ -79,6 +88,12 @@ color: #FFFFFF;}
  .banner{justify-content: space-between;}
 
 
+ /* ..........................section-2.................. */
+ .habit-section{justify-items: center;margin-top: 100px; margin-bottom: 100px;}
+ .habit-card-container{margin-top: 58px; justify-content: space-between;}
+.habit-card{max-width: 231px;justify-items: center;text-align: center;}
+.round-img{border-radius: 50%;}
+
 
 
     /*.......... media query styles for small device.............*/
@@ -87,8 +102,10 @@ color: #FFFFFF;}
         margin:10px 20px;}
     .nav-item{display: none;}
     #icon{display: block ;}
-    .banner {flex-direction: column;}
-
+    .banner , .habit-card-container {flex-direction: column;}
+.habit-card-container{margin: 20px auto;}
+.habit-card{margin: 20px auto;}
+.habit-section{text-align: center;}
     }
 
 
