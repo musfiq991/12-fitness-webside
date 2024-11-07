@@ -8,5 +8,87 @@
   #parisienne-regular {
     font-family: "Parisienne", cursive;
     font-weight: 400;
-    font-size: 5rem;
+    font-size: 6rem;
   }
+body{background-color: black;}
+
+
+/* btn  */
+.join-btn{padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    border: none;margin-right: 14px;
+
+    background: rgb(230, 83, 60);}
+    .download-btn{
+        padding: 16px 40px 16px 40px;border: 1px solid rgb(255, 255, 255);
+        border-radius: 42px;
+        font-weight: 600;
+        font-size: 1.125rem;
+        box-sizing: border-box;
+      color: #FFFFFF;
+      background-color:black;
+    
+    }
+    .banner-btn{display: inline;
+  }
+
+/*shared style */
+.orange{
+    color: rgb(230, 83, 60);
+}
+.flex{display: flex;}
+.description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+/*................ nav...............  */
+header{max-width: 1060px;
+    margin: 0 auto;}
+.navbar{justify-content: space-between;
+
+align-items: center;}
+.nav-item{list-style: none;
+margin-right: 45px;
+}
+.nav-link{text-decoration: none;
+font-size: 1.125rem;
+font-weight: 400;
+align-items: center;
+color: #FFFFFF;
+}
+.company{
+    font-weight: 800;
+    font-size: 2.25rem;
+}
+.home{border-radius: 46px;
+
+    background: rgb(230, 83, 60);
+    padding: 8px 20px 8px 20px;}
+    #icon{display: none;}
+    .banner-items{max-width: 520px;}
+    .banner-title{font-weight: 900;
+    font-size: 4.9rem;
+margin: 0;
+color: #FFFFFF;}
+    /* .banner-img{width: 100%;} */
+ .banner{justify-content: space-between;}
+
+
+
+
+    /*.......... media query styles for small device.............*/
+    @media screen and (max-width:576px) {
+       header{
+        margin:10px 20px;}
+    .nav-item{display: none;}
+    #icon{display: block ;}
+    .banner {flex-direction: column;}
+
+    }
+
+
