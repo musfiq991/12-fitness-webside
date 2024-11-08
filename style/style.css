@@ -22,7 +22,8 @@ margin: 0 auto;}
     font-size: 1.125rem;
     border: none;margin-right: 14px;
 
-    background: rgb(230, 83, 60);}
+    background: rgb(230, 83, 60);
+color: #FFFFFF;}
     .download-btn{
         padding: 16px 40px 16px 40px;border: 1px solid rgb(255, 255, 255);
         border-radius: 42px;
@@ -95,6 +96,19 @@ color: #FFFFFF;}
 .round-img{border-radius: 50%;}
 
 
+/*    .....................run section................. */
+.run-container{
+margin: 0 auto;border-radius: 18px;
+
+background: rgb(34, 34, 34); justify-content: space-between;}
+.run-img > img {width: 100%; border-radius: 18px; 
+}
+.run-img{margin:30px 30px 30px 0px;}
+.run-card{margin: 30px;max-width: 443px;}
+.run-title{margin: 0;}
+.run-card > .join-btn{width: 80%;}
+
+
 
     /*.......... media query styles for small device.............*/
     @media screen and (max-width:576px) {
@@ -102,10 +116,12 @@ color: #FFFFFF;}
         margin:10px 20px;}
     .nav-item{display: none;}
     #icon{display: block ;}
-    .banner , .habit-card-container {flex-direction: column;}
+    .banner , .habit-card-container ,.run-container {flex-direction: column;}
 .habit-card-container{margin: 20px auto;}
 .habit-card{margin: 20px auto;}
 .habit-section{text-align: center;}
-    }
+   .run-img{margin:20px;}
+   .run-card > .join-btn{width: 100%;}
+ }
 
 
