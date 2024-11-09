@@ -98,7 +98,7 @@ color: #FFFFFF;}
 
 /*    .....................run section................. */
 .run-container{
-margin: 0 auto;border-radius: 18px;
+margin: 60px auto;border-radius: 18px;
 
 background: rgb(34, 34, 34); justify-content: space-between;}
 .run-img > img {width: 100%; border-radius: 18px; 
@@ -107,9 +107,29 @@ background: rgb(34, 34, 34); justify-content: space-between;}
 .run-card{margin: 30px;max-width: 443px;}
 .run-title{margin: 0;}
 .run-card > .join-btn{width: 80%;}
+.meet-img-container{max-width: 1020px;padding: 20px;}
+.footer{
+    background: rgba(255, 255, 255, 0.1);}
+.footer-contain {max-width: 1060px;
+margin: 0 auto;padding-top: 60px;}
+.footer-banner-title{font-size: 5rem;
+font-weight: 800;color: #E6533C; margin: 0;}
+.footer-title{font-size: 2rem;
+font-weight: 700;
+color: white;
+}
+.footer-link >a{font-size: 1.5rem;
+font-weight: 400;
+text-decoration: none;
+color:rgba(255, 255, 255, 0.5);
+}
+.footer-links{display: grid; 
+grid-template-columns: 1.5fr 1fr 1fr; gap: 20px;}
+.all-right-reserved{text-align: center;
+    padding-bottom: 30px;
 
-
-
+}
+.all-right-reserved >p{font-size: 1.5rem;font-weight: 400;color: rgba(255, 255, 255, 0.5);}
     /*.......... media query styles for small device.............*/
     @media screen and (max-width:576px) {
        header{
@@ -122,6 +142,8 @@ background: rgb(34, 34, 34); justify-content: space-between;}
 .habit-section{text-align: center;}
    .run-img{margin:20px;}
    .run-card > .join-btn{width: 100%;}
+   .footer-links{grid-template-columns: repeat(1 ,1fr);
+    }
  }
 
 
