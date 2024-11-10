@@ -1,185 +1,470 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Parisienne&display=swap');
+
 /* ....................fonts.................. */
-.inter-font{
+.inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-  }
-  #parisienne-regular {
+}
+
+#parisienne-regular {
     font-family: "Parisienne", cursive;
     font-weight: 400;
     font-size: 6rem;
-  }
-body{background-color: black;}
-main{max-width: 1060px;
-margin: 0 auto;}
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    max-width: 1060px;
+    margin: 0 auto;
+}
 
 
 /* btn  */
-.join-btn{padding: 16px 40px 16px 40px;
+.join-btn {
+    padding: 16px 40px 16px 40px;
     border-radius: 42px;
     font-weight: 600;
     font-size: 1.125rem;
-    border: none;margin-right: 14px;
+    border: none;
+    margin-right: 14px;
 
     background: rgb(230, 83, 60);
-color: #FFFFFF;}
-    .download-btn{
-        padding: 16px 40px 16px 40px;border: 1px solid rgb(255, 255, 255);
-        border-radius: 42px;
-        font-weight: 600;
-        font-size: 1.125rem;
-        box-sizing: border-box;
-      color: #FFFFFF;
-      background-color:black;
-    
-    }
-    .banner-btn{display: inline;
-  }
+    color: #FFFFFF;
+}
+
+.download-btn {
+    padding: 16px 40px 16px 40px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    background-color: black;
+
+}
+
+.banner-btn {
+    display: inline;
+}
 
 /*shared style */
-.orange{
+.orange {
     color: rgb(230, 83, 60);
 }
-.flex{display: flex;}
-.description{
+
+.flex {
+    display: flex;
+}
+
+.description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
 }
 
-.title{
+.title {
     font-size: 3rem;
     font-weight: 900;
     color: #FFFFFF;
 }
-.short-title{color: #FFFFFF;
-    font-size: 1rem;
-    font-weight: 400;}
-/*................ nav...............  */
-header{max-width: 1060px;
-    margin: 0 auto;}
-.navbar{justify-content: space-between;
 
-align-items: center;}
-.nav-item{list-style: none;
-margin-right: 45px;
+.short-title {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
 }
-.nav-link{text-decoration: none;
-font-size: 1.125rem;
-font-weight: 400;
-align-items: center;
-color: #FFFFFF;
+
+/*................ nav...............  */
+header {
+    max-width: 1060px;
+    margin: 0 auto;
 }
-.company{
+
+.navbar {
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 45px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 400;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.company {
     font-weight: 800;
     font-size: 2.25rem;
 }
-.home{border-radius: 46px;
+
+.home {
+    border-radius: 46px;
 
     background: rgb(230, 83, 60);
-    padding: 8px 20px 8px 20px;}
-    #icon{display: none;}
-    .banner-items{max-width: 520px;}
-    .banner-title{font-weight: 900;
+    padding: 8px 20px 8px 20px;
+}
+
+#icon {
+    display: none;
+}
+
+.banner-items {
+    max-width: 520px;
+}
+
+.banner-title {
+    font-weight: 900;
     font-size: 4.9rem;
-margin: 0;
-color: #FFFFFF;}
-    /* .banner-img{width: 100%;} */
- .banner{justify-content: space-between;}
+    margin: 0;
+    color: #FFFFFF;
+}
+
+/* .banner-img{width: 100%;} */
+.banner {
+    justify-content: space-between;
+}
 
 
- /* ..........................section-2.................. */
- .section{justify-items: center;margin-top: 100px; margin-bottom: 100px;}
- .habit-card-container{margin-top: 58px; justify-content: space-between;}
-.habit-card{max-width: 231px;justify-items: center;text-align: center;}
-.round-img{border-radius: 50%;}
+/* ..........................section-2.................. */
+.section {
+    justify-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.habit-card-container {
+    margin-top: 58px;
+    justify-content: space-between;
+}
+
+.habit-card {
+    max-width: 231px;
+    justify-items: center;
+    text-align: center;
+}
+
+.round-img {
+    border-radius: 50%;
+}
 
 
 /*    .....................run section................. */
-.run-container{
-margin: 60px auto;border-radius: 18px;
+.run-container {
+    margin: 60px auto;
+    border-radius: 18px;
 
-background: rgb(34, 34, 34); justify-content: space-between;}
-.run-img > img {width: 100%; border-radius: 18px; 
+    background: rgb(34, 34, 34);
+    justify-content: space-between;
 }
-.run-img{margin:30px 30px 30px 0px;}
-.run-card{margin: 30px;max-width: 443px;}
-.run-title{margin: 0;}
-.run-card > .join-btn{width: 80%;}
-.meet-img-container{max-width: 1020px;padding: 20px;}
-.team-container{display: grid;
-grid-template-columns: repeat(3 ,1fr);gap: 20px;
-background-color: rgba(255, 255, 255, 0.1);margin-bottom: 60px;padding: 20px; border-radius: 8px;}
-.team{border-radius: 8px;height: 272px;position: relative;}
-.team >p ,span{
+
+.run-img>img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.run-img {
+    margin: 30px 30px 30px 0px;
+}
+
+.run-card {
+    margin: 30px;
+    max-width: 443px;
+}
+
+.run-title {
+    margin: 0;
+}
+
+.run-card>.join-btn {
+    width: 80%;
+}
+
+/* spacial section  */
+.free-tutorial {
+    margin: 0;
+}
+
+.youtube {
+    text-align: center;
+}
+
+/* Bmi calculator section  */
+.bmi-container {
+    background: rgb(34, 34, 34);
+    max-width: 1060px;
+    margin: 60px auto;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 310px;
+    height: 216px;
+}
+
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding-left: 10px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+th {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.range {
+    gap: 170px;
+}
+
+.bmi-title {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+input,
+select {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px 12px 20px;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+select {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.mama {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+#bro {
+    flex-grow: 1;
+}
+
+/* meet our team section  */
+.meet-img-container {
+    max-width: 1020px;
+    padding: 20px;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 60px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.team {
+    border-radius: 8px;
+    height: 272px;
+    position: relative;
+}
+
+.team>p,.team >
+span {
     position: absolute;
     bottom: 8px;
     left: 20px;
     color: white;
-  
+
 }
-.team >p{ font-size: 1.2rem;font-weight: 600;}
-.team >span{ font-size: 1rem;font-weight: 400; color: white;opacity: 0.8;}
-.pic-1{background-image: url("../images/trainer1.png") ;background-repeat: no-repeat;
-    background-size: 100% 100%;}
-.pic-2{background-image: url("../images/trainer2.png") ;background-repeat: no-repeat;
-    background-size: 100% 100%;}
-.pic-3{background-image: url("../images/trainer3.png") ;background-repeat: no-repeat;
-    background-size: 100% 100%;}
-.pic-4{background-image: url("../images/trainer4.png") ;background-repeat: no-repeat;
-    background-size: 100% 100%;}
-.pic-5{background-image: url("../images/trainer5.png") ;background-repeat: no-repeat;
-    background-size: 100% 100%;}
-.pic-6{background-image: url("../images/trainer6.png") ;background-repeat: no-repeat;
-    background-size: 100% 100%;}
-/* spacial section  */
-.free-tutorial{margin: 0;}
-.youtube{text-align: center; }
+
+.team>p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.team>span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    opacity: 0.8;
+}
+
+.pic-1 {
+    background-image: url("../images/trainer1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.pic-2 {
+    background-image: url("../images/trainer2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.pic-3 {
+    background-image: url("../images/trainer3.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.pic-4 {
+    background-image: url("../images/trainer4.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.pic-5 {
+    background-image: url("../images/trainer5.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.pic-6 {
+    background-image: url("../images/trainer6.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 /* footer section  */
 /* .............................. */
-.footer{
-    background: rgba(255, 255, 255, 0.1);}
-.footer-contain {max-width: 1060px;
-margin: 0 auto;padding-top: 60px;}
-.footer-banner-title{font-size: 5rem;
-font-weight: 800;color: #E6533C; margin: 0;}
-.footer-title{font-size: 2rem;
-font-weight: 700;
-color: white;
+.footer {
+    background: rgba(255, 255, 255, 0.1);
 }
-.footer-link >a{font-size: 1.5rem;
-font-weight: 400;
-text-decoration: none;
-color:rgba(255, 255, 255, 0.5);
+
+.footer-contain {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding-top: 60px;
 }
-.footer-links{display: grid; 
-grid-template-columns: 1.5fr 1fr 1fr; gap: 20px;}
-.all-right-reserved{text-align: center;
+
+.footer-banner-title {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #E6533C;
+    margin: 0;
+}
+
+.footer-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.footer-link>a {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 20px;
+}
+
+.all-right-reserved {
+    text-align: center;
     padding-bottom: 30px;
 
 }
-.all-right-reserved >p{font-size: 1.5rem;font-weight: 400;color: rgba(255, 255, 255, 0.5);}
-    /*.......... media query styles for small device.............*/
-    @media screen and (max-width:576px) {
-       header{
-        margin:10px 20px;}
-    .nav-item{display: none;}
-    #icon{display: block ;}
-    .banner , .habit-card-container ,.run-container {flex-direction: column;}
-.habit-card-container{margin: 20px auto;}
-.habit-card{margin: 20px auto;}
-.section{text-align: center;}
-   .run-img{margin:20px;}
-   .run-card > .join-btn{width: 100%;}
-   .footer-links{grid-template-columns: repeat(1 ,1fr);
+
+.all-right-reserved>p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*.......... media query styles for small device.............*/
+@media screen and (max-width:576px) {
+    header {
+        margin: 10px 20px;
     }
-    .footer-contain{margin: auto 10px;}
-    .join-btn{font-size: 1rem;
-    font-weight: 600;}
-    .download-btn{font-size: 1rem;
-    font-weight: 600;}
-    .team-container{grid-template-columns: repeat(1 ,1fr);}
- }
 
+    .nav-item {
+        display: none;
+    }
 
+    #icon {
+        display: block;
+    }
+
+    .banner,
+    .habit-card-container,
+    .run-container {
+        flex-direction: column;
+    }
+
+    .habit-card-container {
+        margin: 20px auto;
+    }
+
+    .habit-card {
+        margin: 20px auto;
+    }
+
+    .section {
+        text-align: center;
+    }
+
+    .run-img {
+        margin: 20px;
+    }
+
+    .run-card>.join-btn {
+        width: 100%;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-contain {
+        margin: auto 10px;
+    }
+
+    .join-btn {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .download-btn {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .team-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .range{flex-direction: column;
+    gap: 20px;}
+    .mama {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin-bottom: 20px;}
+}
