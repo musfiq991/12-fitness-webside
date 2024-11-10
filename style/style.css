@@ -232,7 +232,7 @@ th {
 }
 
 .range {
-    gap: 170px;
+   gap: 100px;
 }
 
 .bmi-title {
@@ -263,12 +263,11 @@ select {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    margin-bottom: 20px;
+ 
 }
 
-#bro {
-    flex-grow: 1;
-}
+/* .bmi-status-2{padding-right: 50px;} */
+.calculate{margin-top: 20px;}
 
 /* meet our team section  */
 .meet-img-container {
@@ -398,7 +397,7 @@ span {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
-
+.hide{display: none;}
 /*.......... media query styles for small device.............*/
 @media screen and (max-width:576px) {
     header {
@@ -467,4 +466,5 @@ span {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
         margin-bottom: 20px;}
+        .bmi-container{padding: 10px;}
 }
