@@ -108,6 +108,34 @@ background: rgb(34, 34, 34); justify-content: space-between;}
 .run-title{margin: 0;}
 .run-card > .join-btn{width: 80%;}
 .meet-img-container{max-width: 1020px;padding: 20px;}
+.team-container{display: grid;
+grid-template-columns: repeat(3 ,1fr);gap: 20px;
+background-color: rgba(255, 255, 255, 0.1);margin-bottom: 60px;padding: 20px; border-radius: 8px;}
+.team{border-radius: 8px;height: 272px;position: relative;}
+.team >p ,span{
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: white;
+  
+}
+.team >p{ font-size: 1.2rem;font-weight: 600;}
+.team >span{ font-size: 1rem;font-weight: 400; color: white;opacity: 0.8;}
+.pic-1{background-image: url("../images/trainer1.png") ;background-repeat: no-repeat;
+    background-size: 100% 100%;}
+.pic-2{background-image: url("../images/trainer2.png") ;background-repeat: no-repeat;
+    background-size: 100% 100%;}
+.pic-3{background-image: url("../images/trainer3.png") ;background-repeat: no-repeat;
+    background-size: 100% 100%;}
+.pic-4{background-image: url("../images/trainer4.png") ;background-repeat: no-repeat;
+    background-size: 100% 100%;}
+.pic-5{background-image: url("../images/trainer5.png") ;background-repeat: no-repeat;
+    background-size: 100% 100%;}
+.pic-6{background-image: url("../images/trainer6.png") ;background-repeat: no-repeat;
+    background-size: 100% 100%;}
+
+
+/* .............................. */
 .footer{
     background: rgba(255, 255, 255, 0.1);}
 .footer-contain {max-width: 1060px;
@@ -144,6 +172,12 @@ grid-template-columns: 1.5fr 1fr 1fr; gap: 20px;}
    .run-card > .join-btn{width: 100%;}
    .footer-links{grid-template-columns: repeat(1 ,1fr);
     }
+    .footer-contain{margin: auto 10px;}
+    .join-btn{font-size: 1rem;
+    font-weight: 600;}
+    .download-btn{font-size: 1rem;
+    font-weight: 600;}
+    .team-container{grid-template-columns: repeat(1 ,1fr);}
  }
 
 
