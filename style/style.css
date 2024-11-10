@@ -90,7 +90,7 @@ color: #FFFFFF;}
 
 
  /* ..........................section-2.................. */
- .habit-section{justify-items: center;margin-top: 100px; margin-bottom: 100px;}
+ .section{justify-items: center;margin-top: 100px; margin-bottom: 100px;}
  .habit-card-container{margin-top: 58px; justify-content: space-between;}
 .habit-card{max-width: 231px;justify-items: center;text-align: center;}
 .round-img{border-radius: 50%;}
@@ -133,8 +133,10 @@ background-color: rgba(255, 255, 255, 0.1);margin-bottom: 60px;padding: 20px; bo
     background-size: 100% 100%;}
 .pic-6{background-image: url("../images/trainer6.png") ;background-repeat: no-repeat;
     background-size: 100% 100%;}
-
-
+/* spacial section  */
+.free-tutorial{margin: 0;}
+.youtube{text-align: center; }
+/* footer section  */
 /* .............................. */
 .footer{
     background: rgba(255, 255, 255, 0.1);}
@@ -167,7 +169,7 @@ grid-template-columns: 1.5fr 1fr 1fr; gap: 20px;}
     .banner , .habit-card-container ,.run-container {flex-direction: column;}
 .habit-card-container{margin: 20px auto;}
 .habit-card{margin: 20px auto;}
-.habit-section{text-align: center;}
+.section{text-align: center;}
    .run-img{margin:20px;}
    .run-card > .join-btn{width: 100%;}
    .footer-links{grid-template-columns: repeat(1 ,1fr);
